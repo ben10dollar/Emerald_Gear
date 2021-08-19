@@ -1,0 +1,6 @@
+{
+  "parent": "item/bow",
+  "textures": {
+    "layer0": "emeraldgear:items/emerald_bow_pulling_2"
+  }
+}

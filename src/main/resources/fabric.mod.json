@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "emeraldgear",
+  "version": "${version}",
+
+  "name": "Emerald Gear Mod",
+  "description": "You can craft armor and tools with iron, diamonds, and gold, but surprisingly not emeralds. So why not allow just that?",
+  "authors": [
+    "ben10dollar"
+  ],
+  "contact": {
+    "homepage": "https://ben10dollar.github.io/",
+    "sources": "example.com"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/emeraldgear/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ben10dollar.emeraldgear.EmeraldGear"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.1",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
